@@ -1,0 +1,14 @@
+Pod::Spec.new do |s|
+s.name        = 'CommonCategory'
+s.version     = '1.0.0'
+s.authors     = { 'daniulaolu' => '287929070@qq.com' }
+s.homepage    = 'https://github.com/daniulaolu/CommonCategory'
+s.summary     = 'a dropdown menu for ios like wechat homepage.'
+s.source      = { :git => 'https://github.com/daniulaolu/CommonCategory.git',
+:tag => s.version.to_s }
+s.license     = { :type => "MIT", :file => "LICENSE" }
+s.platform = :ios, '7.0'
+s.requires_arc = true
+s.source_files = "CommonCategory", "*.{h,m}"
+s.ios.deployment_target = '7.0'
+end
